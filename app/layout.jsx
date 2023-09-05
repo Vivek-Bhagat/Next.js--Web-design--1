@@ -18,9 +18,9 @@ export default function RootLayout({ children }) {
           <Image
             src={bgImg}
             alt="background images"
-            className="absolute -z-40 h-screen w-screen"
+            className="absolute -z-40 h-screen w-screen brightness-50 "
           />
-          <div className="z-10 max-w-5xl w-full justify-center  font-mono  lg:flex my-5">
+          <div className="z-10 max-w-5xl w-full justify-center  font-mono  lg:flex my-5 border  py-2 rounded bg-lime-200 text-zinc-950">
             <nav>
               <ul className="flex justify-between items-center mx-2 text-base ">
                 <li className="mx-4 ">
